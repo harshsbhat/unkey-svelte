@@ -16,7 +16,9 @@ This project demonstrates how you can protect your Svelte API Routes with [Unkey
 2. Create a new [API](https://app.unkey.com/apis). Copy the `API ID`
 3. Create a new root key from the [settings/root-key](https://app.unkey.com/settings/root-keys/) with `create-key` permissions
 
-## Setup Environment Variables `cp env.example .env` and add the following variables:
+## Setup Environment Variables 
+
+**`cp env.example .env` and add the following variables:**
 
 ```bash
 UNKEY_API_ID=""
