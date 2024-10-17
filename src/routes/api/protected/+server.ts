@@ -1,9 +1,9 @@
 import type { RequestHandler } from '@sveltejs/kit';
 import { verifyKey } from '@unkey/api';
-import { API_ID } from '$env/static/private';
+import { UNKEY_API_ID } from '$env/static/private';
 
 export const GET: RequestHandler = async ({ request }) => {
-    const apiId = API_ID;
+    const apiId = UNKEY_API_ID;
     const apiKey = request.headers.get('Authorization')?.split(' ')[1];
 
     if (!apiKey) {

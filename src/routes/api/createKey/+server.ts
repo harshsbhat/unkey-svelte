@@ -1,9 +1,9 @@
 import type { RequestHandler } from '@sveltejs/kit';
 import { unkey } from '../unkey';
-import { API_ID } from '$env/static/private';
+import { UNKEY_API_ID } from '$env/static/private';
 
 export const GET: RequestHandler = async () => {
-    const apiId = API_ID;
+    const apiId = UNKEY_API_ID;
     const prefix = "svelte"; 
 
     try {
