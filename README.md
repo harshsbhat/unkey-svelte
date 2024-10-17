@@ -25,13 +25,13 @@ UNKEY_ROOT_KEY=""
 
 ## Quickstart
 
-### Install all the dependencies
+**Install all the dependencies**
 
 ```bash
 pnpm install
 ```
 
-### Run the app. It should start at port `5173`
+**Run the app. It should start at port `5173`**
 
 ```bash
 pnpm dev
